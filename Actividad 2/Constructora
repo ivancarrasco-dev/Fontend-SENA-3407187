@@ -1,0 +1,9 @@
+function Persona (nombre, edad) {
+
+this.nombre = nombre
+this.edad = edad
+
+const usuario = new Persona ("Juan", 30)
+console. log (usuario.nombre, usuario.edad)
+
+}
